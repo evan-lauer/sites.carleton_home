@@ -29,12 +29,6 @@ nav ul li
 {
     text-decoration: none;
     display: inline-block;
-    cursor: pointer;
-}
-
-nav .btn, .dropBtn
-{
-    text-decoration: none;
 }
 
 nav ul li a
@@ -44,6 +38,14 @@ nav ul li a
     background-color: transparent;
     padding: 10px 15px;
     margin: 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dropBtn
+{
+    cursor: default;
 }
 
 nav ul li a:hover
@@ -56,6 +58,12 @@ nav ul li a#selected
 {
     color: rgba(63, 121, 73, 0.603);
     background-color: white;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
 }
 
 nav ul li .dropContent
@@ -72,6 +80,12 @@ nav ul li .dropdown:hover .dropContent
 .dropContent a
 {
     display: block;
-    background-color: #5b7460ad;
+    background-color: rgba(63, 121, 73, 0.603);
     text-decoration: none;
+}
+
+.dropContent a:hover
+{
+    color: rgba(63, 121, 73, 0.603);
+    background-color: rgba(233, 233, 233, 0.767);
 }
