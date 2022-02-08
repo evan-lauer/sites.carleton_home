@@ -1,0 +1,77 @@
+body, footer
+{
+    font-family: Helvetica, "Trebuchet MS", Arial, sans-serif;
+}
+
+body h1
+{
+    text-align: center;
+    margin-top: 50px;
+    color: #5b7460;
+}
+
+body h2
+{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #7e7e7e;
+}
+
+nav
+{
+    text-align: center;  
+    background-color: rgba(63, 121, 73, 0.603);
+    padding: 5px 0;  
+    width: 90%;
+    margin: auto;
+}
+nav ul li
+{
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+nav .btn, .dropBtn
+{
+    text-decoration: none;
+}
+
+nav ul li a
+{
+    font-size: 130%;
+    color: white;
+    background-color: transparent;
+    padding: 10px 15px;
+    margin: 2px;
+}
+
+nav ul li a:hover
+{
+    color: rgba(63, 121, 73, 0.603);
+    background-color: white;
+}
+
+nav ul li a#selected
+{
+    color: rgba(63, 121, 73, 0.603);
+    background-color: white;
+}
+
+nav ul li .dropContent
+{
+    display: none;
+}
+
+nav ul li .dropdown:hover .dropContent
+{
+    display: block;
+    position: absolute;
+}
+
+.dropContent a
+{
+    display: block;
+    background-color: #5b7460ad;
+    text-decoration: none;
+}
