@@ -28,6 +28,7 @@ nav
 nav ul li
 {
     text-decoration: none;
+    
     display: inline-block;
 }
 
@@ -37,7 +38,7 @@ nav ul li a
     color: white;
     background-color: transparent;
     padding: 10px 15px;
-    margin: 2px;
+    margin: 0px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
